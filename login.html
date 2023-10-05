@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: #ccc;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            margin-top: 10%;
+        }
+        input {
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+        button {
+            background-color: aliceblue;
+            border: none;
+            border-radius: 5px;
+            box-shadow: rgba(0, 0, 0, 0.699) 2px 2px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: pink;
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            이름 : <input type="text"><br>
+            비밀번호 : <input type="password"><br>
+            <button>로그인</button>
+        </form>
+    </div>
+
+
+    <div class="container">
+        <form action="">
+            <label for="name">이름 : </label>
+            <input type="text" id="name"><br>
+            <label for="password">비밀번호 : </label>
+            <input type="password" id="password"><br>
+            <button>로그인</button>
+        </form>
+    </div>
+</body>
+</html>
