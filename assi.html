@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: black;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            padding: 15%;
+            color: white;
+        }
+        input {
+            background-color: white;
+            border: none;
+            border-radius: 10px;
+            height: 20px;
+        }
+        input:focus {
+            outline: none;
+            border: 3px solid pink;
+        }
+        button {
+            background-color: white;
+            border: none;
+            border-radius: 3px;
+            height: 30px;
+            margin-left: 100px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: black;
+            color: white;
+            box-shadow: white 1px 1px 2px 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <label for="id">아이디 : <input type="text" id="id"></label><br><br>
+            <label for="pass">비밀번호 : <input type="password" id="pass"></label><br><br>
+            <label for="checkpass">비밀번호 확인 : <input type="password" id="checkpass"></label><br><br>
+            <label for="mail">이메일 : <input type="email" id="mail"></label><br><br>
+            <label for="man">남자 : <input type="radio" id="man"></label>
+            <label for="woman">여자 : <input type="radio" id="woman"></label><br><br>
+            <label for="sec">보안 : <input type="checkbox" id="sec"></label>
+            <label for="web">웹개발 : <input type="checkbox" id="web"></label>
+            <label for="app">앱개발 : <input type="checkbox" id="app"></label>
+            <label for="game">게임개발 : <input type="checkbox" id="game"></label><br><br>
+            <button>회원가입</button>
+        </form>
+    </div>
+</body>
+</html>
